@@ -16,7 +16,7 @@ class StaticPagesController extends AppController {
     }
 
     public function catchCV() {
-        $cv = ROOT . 'public/resources/download/cv_benjamin_maigne.pdf';
+        $cv = ROOT . 'www/resources/download/cv_benjamin_maigne.pdf';
         if (file_exists($cv)) {
             header('Content-Description: File Transfer');
             header('Content-Type: application/pdf');

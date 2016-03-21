@@ -3,16 +3,6 @@
     <span class="project_category"><?= $category->label ?></span>
 </div>
 
-<?php
-    
-    /*$to = 'kayyow@hotmail.fr';
-    $subject = 'Test pour les mails en PHP';
-    $message = 'Alors voila, blablabla blablabla blablabla';
-
-    mail($to, $subject, $message);*/
-
-?>
-
 <div class="project_container">
     <div class="image">
         <img src="<?= $project->image ?>">
